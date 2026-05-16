@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DeciAi — Decide with Clarity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Deci<span>Ai</span></div>
+  <ul>
+    <!-- <li><a href="#features">Features</a></li>
+    <li><a href="#how">How it works</a></li> -->
+    <li><a href="main.exe" class="nav-cta">Download Free</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow"></div>
+
+  <div class="badge"><span class="badge-dot"></span>AI-Powered Decision Engine</div>
+
+  <h1>Decide Smarter.<br />With <em>AI + AHP</em>.</h1>
+
+  <p class="hero-sub">
+    DeciAi is a desktop application that combines the Analytic Hierarchy Process with artificial intelligence — giving you a structured, bias-free framework to make complex decisions with clarity and confidence.
+  </p>
+
+  <div class="hero-actions">
+    <a href="#download" class="btn-primary">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Now 
+    </a>
+    <!-- <a href="#features" class="btn-secondary">
+      Explore Features
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a> -->
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">AHP</div>
+      <div class="stat-label">Method</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">AI</div>
+      <div class="stat-label">Assisted</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">100%</div>
+      <div class="stat-label">Local & Private</div>
+    </div>
+    <!-- <div class="stat">
+      <div class="stat-num">Free</div>
+      <div class="stat-label">Desktop App</div>
+    </div> -->
+  </div>
+</section>
+
+<!-- MOCKUP -->
+ <div class="mockup-section">
+  <div class="mockup-wrap">
+    <div class="window">
+  <div class="titlebar">
+    <div class="traffic-lights">
+      <div class="tl close"></div>
+      <div class="tl min"></div>
+      <div class="tl max"></div>
+    </div>
+    <div class="titlebar-title">DeciAi — AHP Decision System</div>
+  </div>
+
+  <div class="app-body">
+    <div class="sidebar">
+      <div class="sidebar-logo">
+        <div class="app-name">AHP</div>
+        <div class="app-sub" style="color:#c8cce0;">Decision System</div>
+      </div>
+      <div class="sidebar-nav">
+        <div class="nav-item">1. Setup</div>
+        <div class="nav-item">2. Enter Data</div>
+        <div class="nav-item active">3. Results</div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="page-title">AHP Results</div>
+      <div class="page-sub">Goal: best supplier</div>
+
+      <div class="section">
+        <div class="section-title">Input Data Table</div>
+        <table>
+          <thead>
+            <tr>
+              <td></td>
+              <td>Délai (down)</td>
+              <td>Garantie (up)</td>
+              <td>Caractéristiques (up)</td>
+              <td>Prix (down)</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>F1</td><td>3</td><td>13</td><td>20</td><td>1 460 500</td></tr>
+            <tr><td>F2</td><td>1</td><td>37</td><td>20</td><td>1 342 100</td></tr>
+            <tr><td>F3</td><td>1</td><td>12</td><td>40</td><td>1 109 000</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Final Ranking</div>
+        <div class="rank-row"><div class="rank-label">F3</div><div class="bar-track"><div class="bar-fill bar-f3"></div></div><div class="rank-score">0.3971</div></div>
+        <div class="rank-row"><div class="rank-label">F2</div><div class="bar-track"><div class="bar-fill bar-f2"></div></div><div class="rank-score">0.3361</div></div>
+        <div class="rank-row"><div class="rank-label">F1</div><div class="bar-track"><div class="bar-fill bar-f1"></div></div><div class="rank-score">0.2667</div></div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Criteria Weights</div>
+        <div class="crit-row"><div class="crit-label">Délai</div><div class="crit-bar"><div class="crit-fill" style="width:12%"></div></div><div class="crit-val">0.0782</div></div>
+        <div class="crit-row"><div class="crit-label">Garantie</div><div class="crit-bar"><div class="crit-fill" style="width:12%"></div></div><div class="crit-val">0.0782</div></div>
+        <div class="crit-row"><div class="crit-label">Caractéristiques</div><div class="crit-bar"><div class="crit-fill" style="width:30%"></div></div><div class="crit-val">0.1962</div></div>
+        <div class="crit-row"><div class="crit-label">Prix</div><div class="crit-bar"><div class="crit-fill" style="width:100%"></div></div><div class="crit-val">0.6474</div></div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Consistency Analysis</div>
+        <div style="font-size:12px;color:#6b7394;padding:4px 0;">CR values within acceptable range (&lt; 0.10)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <button class="btn btn-export">Export CSV</button>
+    <button class="btn btn-pdf">Save PDF</button>
+    <button class="btn btn-new">Start New</button>
+  </div>
+
+  <div class="status-bar">
+    <div class="status-dot"></div>
+    <div class="status-text">Ready</div>
+  </div>
+</div>
+    <!-- <div class="mockup">
+      <div class="mockup-bar">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+        <span class="mockup-title">DeciAi — New Decision Project</span>
+      </div>
+      <div class="mockup-body">
+        <div class="mockup-sidebar">
+          <div class="sidebar-item active"><span class="sidebar-icon">🎯</span> Decision Matrix</div>
+          <div class="sidebar-item"><span class="sidebar-icon">⚖️</span> Criteria Weights</div>
+          <div class="sidebar-item"><span class="sidebar-icon">📊</span> AHP Analysis</div>
+          <div class="sidebar-item"><span class="sidebar-icon">🤖</span> AI Insights</div>
+          <div class="sidebar-item"><span class="sidebar-icon">📁</span> Projects</div>
+          <div class="sidebar-item"><span class="sidebar-icon">📤</span> Export Report</div>
+        </div>
+        <div class="mockup-main">
+          <div class="mock-card">
+            <div class="mock-card-label">Criteria Weights · AHP Computed</div>
+            <div class="mock-card-title">Hiring the Right Candidate</div>
+            <div class="criteria-row">
+              <span class="criteria-name">Experience</span>
+              <div class="bar-track"><div class="bar-fill" style="width:72%;background:linear-gradient(90deg,#3b82f6,#06b6d4)"></div></div>
+              <span class="bar-pct">72%</span>
+            </div>
+            <div class="criteria-row">
+              <span class="criteria-name">Skills</span>
+              <div class="bar-track"><div class="bar-fill" style="width:58%;background:linear-gradient(90deg,#8b5cf6,#6366f1)"></div></div>
+              <span class="bar-pct">58%</span>
+            </div>
+            <div class="criteria-row">
+              <span class="criteria-name">Culture Fit</span>
+              <div class="bar-track"><div class="bar-fill" style="width:44%;background:linear-gradient(90deg,#f59e0b,#f97316)"></div></div>
+              <span class="bar-pct">44%</span>
+            </div>
+            <div class="criteria-row">
+              <span class="criteria-name">Cost</span>
+              <div class="bar-track"><div class="bar-fill" style="width:31%;background:linear-gradient(90deg,#10b981,#06b6d4)"></div></div>
+              <span class="bar-pct">31%</span>
+            </div>
+          </div>
+          <div class="mock-card">
+            <div class="mock-card-label">AI-Ranked Results</div>
+            <div class="result-row">
+              <span class="result-rank">#1</span>
+              <span>Candidate A</span>
+              <span class="result-score">0.847</span>
+              <span class="result-tag">Recommended</span>
+            </div>
+            <div class="result-row">
+              <span class="result-rank">#2</span>
+              <span>Candidate C</span>
+              <span class="result-score">0.712</span>
+              <span></span>
+            </div>
+            <div class="result-row">
+              <span class="result-rank">#3</span>
+              <span>Candidate B</span>
+              <span class="result-score">0.631</span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</div> 
+
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="reveal">
+    <div class="section-label">Capabilities</div>
+    <h2 class="section-title">Everything you need to decide well.</h2>
+    <p class="section-sub">Built for professionals, researchers, and anyone facing a decision too complex to trust to gut feeling alone.</p>
+  </div>
+
+  <div class="features-grid reveal">
+    <div class="feature-card">
+      <div class="feature-icon"><img src="images/engineering.png" style="width: 80%;"></div>
+      <h3>AHP Engine</h3>
+      <p>Full Analytic Hierarchy Process implementation — pairwise comparisons, consistency ratio checking, and priority vector computation built right in.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><img src="images/ai-powered-support.png" style="width:80%;"></div>
+      <h3>AI-Powered Insights</h3>
+      <p>Let the AI assistant help you define criteria, explain trade-offs, and validate your decision matrix with natural language reasoning.</p>
+    </div>
+    <!-- <div class="feature-card">
+      <div class="feature-icon"></div>
+      <h3>Visual Analytics</h3>
+      <p>Interactive charts, weight distributions, and sensitivity analysis make your decision logic transparent and explainable to stakeholders.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"></div>
+      <h3>Project Management</h3>
+      <p>Save, revisit, and compare decision projects. Track how your priorities shift over time and maintain an audit trail of every choice.</p>
+    </div> -->
+    <div class="feature-card">
+      <div class="feature-icon"><img src="images/report.png" style="width:80%;"></div>
+      <h3>Export Reports</h3>
+      <p>Generate polished PDF or Excel reports of your decision analysis — ready to share with your team or present in meetings.</p>
+    </div>
+    <!-- <div class="feature-card">
+      <div class="feature-icon"></div>
+      <h3>Fully Offline</h3>
+      <p>Your data never leaves your machine. DeciAi runs entirely on your desktop — no accounts, no cloud sync, no subscriptions.</p>
+    </div> -->
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how" class="how-section">
+  <div class="reveal">
+    <div class="section-label">How it works</div>
+    <h2 class="section-title">From problem to answer in minutes.</h2>
+    <p class="section-sub">DeciAi guides you through a structured process that turns complex multi-criteria decisions into clear, defensible conclusions.</p>
+  </div>
+
+  <div class="steps reveal">
+    <div class="step">
+      <div class="step-num">01</div>
+      <h3>Define Your Decision</h3>
+      <p>Describe your goal and let AI help you identify the right criteria and alternatives for your specific context.</p>
+      <div class="step-connector"></div>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <h3>Compare Pairwise</h3>
+      <p>Answer simple comparison questions. DeciAi applies the AHP scale to calculate mathematically consistent weight vectors.</p>
+      <div class="step-connector"></div>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <h3>AI Validates</h3>
+      <p>The AI layer checks your consistency ratio, flags potential biases, and suggests refinements to improve decision quality.</p>
+      <div class="step-connector"></div>
+    </div>
+    <div class="step">
+      <div class="step-num">04</div>
+      <h3>Get Your Ranking</h3>
+      <p>Receive a prioritized ranking with scores, charts, and a plain-language explanation you can act on immediately.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA / DOWNLOAD -->
+<section id="download" class="cta-section">
+  <div class="cta-glow"></div>
+  <div class="reveal">
+    <h2>Start making better<br/><em style="font-style:normal;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;">decisions today.</em></h2>
+    <p>Download DeciAi for free. No account required. Runs entirely on your desktop.</p>
+
+    <div class="hero-actions" style="justify-content:center;">
+      <a href="main.exe" class="btn-primary" >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download for Windows
+      </a>
+      <a href="#" class="btn-secondary" onclick="alert('macOS version coming soon!')">
+        Download for macOS
+      </a>
+    </div>
+
+    <div class="os-badges">
+      <span class="os-badge"><img src="images/windows.png" style="width:5%;"> Windows 10/11</span>
+      <span class="os-badge"><img src="images/apple.png" style="width:5%;"> macOS 12+ (coming soon)</span>
+      <span class="os-badge"><img src="images/penguin.png" style="width:5%;">Linux (coming soon)</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">DeciAi</div>
+  <p>© 2026 DeciAi. All rights reserved.</p>
+  <ul>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Terms</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</footer>
+
+<script>
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('in'), i * 80);
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => io.observe(el));
+</script>
+</body>
+</html>
